@@ -1,9 +1,9 @@
 name: CI Angular app through GitHub Actions
 on: 
   push:
-    branches: [ "master" ]
+    branches: [ "master","develop","hostfixes" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master","develop","hostfixes"]
 
 jobs:
   build:
