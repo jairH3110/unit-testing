@@ -1,4 +1,4 @@
-import {greet} from ',/greet';
+import {greet} from './greet';
 
 describe('greet',()=>{
     it('should inlcude the name in the message', () => {
