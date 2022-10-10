@@ -1,3 +1,4 @@
+
 import {circle} from './circle';
 
 describe('circle',() => {
@@ -20,6 +21,14 @@ describe('circle',() => {
     it('shourld return 0,if radio is 0', () => {
         const result = circle(3);
         expect(result).toBe(28.2744)
+    });
+});
+
+
+describe('circle',() => {
+    it('shourld return 0,if radio is 0', () => {
+        const result = circle(0);
+        expect(result).toBe(0)
     });
 });
 
