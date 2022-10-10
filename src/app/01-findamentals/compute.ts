@@ -1,4 +1,6 @@
 export function compute(number: number){
+   
+   
     return 0;
     
 }
