@@ -22,4 +22,3 @@ export function fact (x:number){
   
     return base;
   }   
-}

@@ -23,21 +23,21 @@ describe('getCurrencies', () => {
 
 describe('getCurrencies', () => {
   it('should return the fact of the numbers', () => {
-    const result = getFact(4);
+    const result = fact(4);
     expect(result).toBe(24);
   });
 });
 
 describe('getCurrencies', () => {
   it('should return the fact of the numbers', () => {
-    const result = getFact(5);
+    const result = fact(5);
     expect(result).toBe(120);
   });
 });
 
 describe('getCurrencies', () => {
   it('should return the fact of the numbers', () => {
-    const result = getFact(17);
+    const result = fact(17);
     expect(result).toBe(0);
   });
 });
