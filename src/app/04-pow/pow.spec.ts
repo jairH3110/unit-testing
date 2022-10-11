@@ -10,7 +10,7 @@ describe('pow',()=>{
 describe('pow',()=>{
     it('Should return 9 if x=2, n=3',() => {
        const result = pow(3,2);
-        expect(result).toBe(3);
+        expect(result).toBe(9);
     })
 })
 
